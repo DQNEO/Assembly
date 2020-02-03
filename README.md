@@ -1,6 +1,8 @@
 My Assembly sandbox
 
-# How to assemble code
+All `*.s` codes are written in GAS for x86-64 linux so far.
+
+# How to run
 
 ```
 $ docker run --rm -it -v `pwd`:/mnt -w /mnt dqneo/ubuntu-build-essential:latest bash
