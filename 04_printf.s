@@ -1,3 +1,4 @@
+# needs -no-pie option
 .str1:
 	.string "%s"
 .str2:
