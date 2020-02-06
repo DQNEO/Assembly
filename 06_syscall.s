@@ -1,4 +1,4 @@
-        // Call write(2) directly without libc
+        // Call write(2) via syscall wrapper
         // -no-pie option is required
 .str1:
 	.string "hello\n"
