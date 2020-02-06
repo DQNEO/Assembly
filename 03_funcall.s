@@ -1,3 +1,4 @@
+        // Call an userland function
         .global main
 main:
         // Following the System V AMD64 ABI.

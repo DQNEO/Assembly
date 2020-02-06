@@ -1,4 +1,5 @@
-# needs -no-pie option
+        // Call libc's printf
+        // -no-pie option is required
 .str1:
 	.string "%s"
 .str2:

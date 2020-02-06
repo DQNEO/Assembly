@@ -1,4 +1,5 @@
-# needs -no-pie option
+        // Call write(2) directly without libc
+        // -no-pie option is required
 .str1:
 	.string "hello\n"
 

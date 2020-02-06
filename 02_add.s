@@ -1,3 +1,4 @@
+        // Execute "add" instruction
         .global main
 main:
         mov $2, %rax
