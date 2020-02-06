@@ -14,4 +14,6 @@ main:
         mov $6,  %rcx  # 4rd argument: size_t nbyte
 	mov $0, %rax
 	call syscall
+
+	mov $0, %rax
 	ret
