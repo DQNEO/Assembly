@@ -1,3 +1,7 @@
+        // as -o $base.o $base.s
+        // ld -o $base $base.o
+        // ./$base 123
+        // > 123
         // Get argc and argv without linked to libc
         // run the binary with "foo" as an argument
         .text
